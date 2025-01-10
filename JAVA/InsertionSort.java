@@ -32,7 +32,7 @@ public class InsertionSort {
                 j--;
             }
 
-            arr[j + 1] = current;
+            arr[j + 1] = current;//makes key to current
         }
 
         System.out.print("Sorted Array: ");
