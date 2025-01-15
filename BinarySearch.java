@@ -2,7 +2,7 @@ public class BinarySearch {
     public static int binarySearch(int[] array, int target) {
         int left = 0;
         int right = array.length - 1;
-
+//loop
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
