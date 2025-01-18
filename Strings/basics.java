@@ -19,6 +19,8 @@ class basics{
         System.out.println(str2);
         System.out.println(length);
         char ch = str1.charAt(0); // Returns 'H'
+
+        
         // Correcting the substring usage:
         String sub = str2.substring(7, 12); // Returns "World"
         String replacedStr = str1.replace('H', 'J'); // Returns "Jello, World!"
