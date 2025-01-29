@@ -59,6 +59,58 @@ class DLL{
 
     }
 
+    void deleteFirst(){
+        if(head==null){
+            System.out.println("List is Empty");
+            return;
+        }
+        else if(head.next==null){
+             System.out.println(head.data+" deleted");
+             head=null;
+        }
+        else{
+            System.out.println(head.data+" deleted");
+            head=head.next;
+            head.prev=null;
+        }
+    }
+
+    void deleteLast(){
+        if(head==null){
+            System.out.println("List is Empty");
+            return;
+        }
+        else if(head.next==null){
+             System.out.println(head.data+" deleted");
+             head=null;
+        }
+        Node current = head;
+        while(current.next.next!= null){
+            current =  current.next;
+        }
+        System.out.println(current.next.data+" deleted");
+        current.next=null;
+    }
+
+    void deletePos(int pos){
+        if(head==null){
+            System.out.println("List is Empty");
+            return;
+        }
+        else if(head.next==null){
+             System.out.println(head.data+" deleted");
+             head=null;
+        }
+        Node current =head;
+        for(int i=0;i<pos-1;i++){
+            current  = current.next;
+
+        }
+        System.out.println(current.next.data+" deleted");
+        current.next= current.next.next;
+        current.next.next.prev=current;
+    }
+
     void printList(){
         Node current= head;
         while(current!=null){
@@ -79,6 +131,9 @@ public class DoublyLinkedList{
         List.insertLast(50);
         List.insertLast(60);
         List.insertPos(70,2);
+        List.deleteFirst();
+        List.deleteLast();
+        List.deletePos(2);
 
         List.printList();
     }
