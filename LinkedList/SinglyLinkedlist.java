@@ -27,12 +27,17 @@ class LL {
 
     void insertLast(int data) {
         Node newNode = new Node(data);
-        if (tail == null) {
+        if (head == null) {
             head = newNode;
-            tail = newNode;
+            
         } else {
-            tail.next = newNode;
-            tail = newNode;
+            Node temp =head;
+            while(temp.next!=null){
+                temp=temp.next;
+                
+            }
+            temp.next=newNode;
+            temp=newNode;
         }
     }
 
