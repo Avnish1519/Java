@@ -100,14 +100,15 @@ class LL {
         Node current = head;
         Node next = null;
         
-        while (current != null) {
-            next = current.next; // Store the next node
-            current.next = prev; // Reverse the current node's pointer
-            prev = current;      // Move pointers one position ahead
-            current = next;
+        while(current!=null){
+            next=current.next;
+            current.next=prev;
+            prev=current;
+            current=next;
         }
-        head = prev;
+        head=prev;
     }
+
 }
 
 public class ReverseLinkedList {
