@@ -26,16 +26,17 @@ class SLL{
         }
     }
 
-    int pop(){
+    void pop(){
         
         if(isEmpty()){
-            return -1;
+            System.out.println("List is Empty");
         }
         else{
             int top = head.data;
             System.out.println(top+" deleted");
             head=head.next;
-            return top;
+            System.out.println(top);
+            
         }
     }
 
