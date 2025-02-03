@@ -30,6 +30,19 @@ class SimpleQueue {
         }
         System.out.println();
     }
+
+    // Function to remove an item from the queue
+    public int dequeue() {
+        if (isEmpty()) {
+            System.out.println("Queue is empty");
+            return Integer.MIN_VALUE;
+        }
+        int item = arr[front];
+        front = (front + 1) % capacity;
+        size--;
+        System.out.println(item + " dequeued from queue");
+        return item;
+    }
 }
 
 class QueueUsingArrays {
@@ -39,6 +52,7 @@ class QueueUsingArrays {
         q.enqueue(10);
         q.enqueue(20);
         q.enqueue(30);
+        q.dequeue();
 
         q.printQueue();
     }
