@@ -2,7 +2,7 @@ class SimpleQueue {
     int[] queue;
     int front, rear, capacity;
 
-    public SimpleQueue(int size) {
+    public SimpleQueue(int size) {//initialization of simple Queue 
         queue = new int[size];
         front = rear = 0;
         capacity = size;
