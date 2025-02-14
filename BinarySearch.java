@@ -21,7 +21,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] array = {2, 3, 4, 10, 40};
         int target = 10;
-        int result = binarySearch(array, target);
+        int result = binarySearch(array, target);//calling of binary function and passing it to result
 
         if (result == -1) {
             System.out.println("Element not present in array");
