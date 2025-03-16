@@ -36,6 +36,6 @@ class basics{
         System.out.println("Uppercase String: " + upperStr);
         System.out.println("Lowercase String: " + lowerStr);
         System.out.println("Are str1 and str2 equal? " + isEqual);
-        System.out.println("Comparison result: " + comparison);
+        System.out.println("Comparison result: " + comparison);//printing of comparison result
     }
 }
