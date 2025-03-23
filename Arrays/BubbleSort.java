@@ -10,6 +10,7 @@ public class BubbleSort {
         }
     }
     
+    //Swap using array
     public static void bubbleSort(int[] array) {
         int n = array.length;
         for (int i = 0; i < n - 1; i++) {
