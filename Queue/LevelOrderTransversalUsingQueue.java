@@ -1,6 +1,6 @@
 // Define the Node class
 class Node {
-    int val;
+    int val;//variable declared
     Node left, right;
     Node(int x) { val = x; }
 }
