@@ -1,5 +1,5 @@
 class CLL{
-    class Node{
+    class Node{//class Node declared
         int data;
         Node next;
 
