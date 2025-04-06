@@ -1,6 +1,6 @@
 import java.util.*;
 public class main{
-    public static void main(String [] args){
+    public static void main(String [] args){//main method
         Scanner sc =  new Scanner(System.in);
         int n = sc.nextIn();
         int [] arr = new int[n];
