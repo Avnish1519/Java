@@ -30,13 +30,13 @@ class basics{
         int comparison = str1.compareTo(str2); // Returns a negative number as str1 < str2
 
         //Printing the output 
-        System.out.println("Concatenated String: " + str3);//printing of concatenated string
+        System.out.println("Concatenated String: " + str3);  //printing concatenated string
         System.out.println("Character at position 0 in str1: " + ch);
         System.out.println("Substring from str2: " + sub);
         System.out.println("String with replaced character: " + replacedStr);
-        System.out.println("Uppercase String: " + upperStr);
+        System.out.println("Uppercase String: " + upperStr);  //printing Uppercase string
         System.out.println("Lowercase String: " + lowerStr);
         System.out.println("Are str1 and str2 equal? " + isEqual);
-        System.out.println("Comparison result: " + comparison);//printing of comparison result
+        System.out.println("Comparison result: " + comparison);  //printing comparison result
     }
 }
