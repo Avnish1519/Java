@@ -6,6 +6,7 @@ public class SpiralMatrix {
         int value = 1;
         int top = 0, bottom = n - 1, left = 0, right = n - 1;
         
+        //using while loop
         while (value <= n * n) {
             for (int i = left; i <= right; i++) {
                 matrix[top][i] = value++;
