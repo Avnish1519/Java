@@ -11,7 +11,7 @@ class SimpleQueue {
     // Add an item to the queue
     public void enqueue(int item) {
         if (rear == capacity) {
-            System.out.println("Queue is full!");
+            System.out.println("Queue is full!");//print fn
             return;
         }
         queue[rear++] = item;
