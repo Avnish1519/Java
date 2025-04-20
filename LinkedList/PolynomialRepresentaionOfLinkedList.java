@@ -6,7 +6,7 @@ class Polynomial {
     }
 
     // Rest of the code remains the same
-    void addTerm(int coefficient, int exponent) {
+    void addTerm(int coefficient, int exponent) {//function
         Node newNode = new Node(coefficient, exponent);
         if (head == null || head.exponent < exponent) {
             newNode.next = head;
