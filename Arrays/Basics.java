@@ -2,6 +2,7 @@
 import java.util.*;
 class Basics{
     public static void main(String[] args){
+        //  This is an object
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
