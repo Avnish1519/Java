@@ -5,7 +5,7 @@ public class main{
         int n = sc.nextIn();//size
         int [] arr = new int[n];//array declared
         for(int i=0; i<n; i++){//loop
-            arr[i] = new int[n];
+            arr[i] = new int[n];//elements insert in given array
 
         }
 
