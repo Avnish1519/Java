@@ -9,7 +9,7 @@ public class ReverseArrayShifting {
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
 
-        int[] originalArray = new int[size];
+        int[] originalArray = new int[size];//size
 
         
         System.out.println("Enter " + size + " elements for the array:");
