@@ -1,5 +1,5 @@
 public class BinarySearch {
-    public static int binarySearch(int[] array, int target) {
+    public static int binarySearch(int[] array, int target) {//function
         int left = 0;
         int right = array.length - 1;
 //loop
