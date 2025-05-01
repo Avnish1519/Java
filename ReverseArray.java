@@ -1,7 +1,7 @@
 import java.util.*;
 public class main{
     public static void main(String [] args){//main method
-        Scanner sc =  new Scanner(System.in);
+        Scanner sc =  new Scanner(System.in);//sc as object is made here in this code
         int n = sc.nextIn();//size
         int [] arr = new int[n];//array declared
         for(int i=0; i<n; i++){//loop
