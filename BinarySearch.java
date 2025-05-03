@@ -1,4 +1,4 @@
-public class BinarySearch {
+public class BinarySearch {//class
     public static int binarySearch(int[] array, int target) {//function
         int left = 0;
         int right = array.length - 1;
