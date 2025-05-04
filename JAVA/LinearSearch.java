@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //used as object to take input as using system.in  
         Scanner sc = new Scanner(System.in);
         
         System.out.print("Enter the size of the array: ");
