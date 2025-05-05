@@ -41,6 +41,7 @@ public class BinaryTree {
 
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
+        //calling things
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
