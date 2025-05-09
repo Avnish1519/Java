@@ -50,6 +50,7 @@ class BST {
         else if (key > root.key)
             root.right = deleteRec(root.right, key);
         else {
+            //using if else if
             if (root.left == null)
                 return root.right;
             else if (root.right == null)
