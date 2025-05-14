@@ -10,7 +10,7 @@ public class BinarySearch {//class
                 return mid;
             }
             if (array[mid] < target) {
-                left = mid + 1;
+                left = mid + 1;//left part of array
             } else {
                 right = mid - 1;
             }
