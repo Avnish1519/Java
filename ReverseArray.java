@@ -14,5 +14,7 @@ public class main{
             
         }
 
+        sc.close();
+
     }
 }
