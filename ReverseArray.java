@@ -13,7 +13,8 @@ public class main{
         while(left< right){//while loop
             
         }
-
+        
+        //closing the class
         sc.close();
 
     }
