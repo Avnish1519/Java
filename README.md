@@ -4,3 +4,4 @@ Basic concepts
 Questions on Arrays,Linked List,Trees
 DFS
 Leetcode Questions 
+Conditionals,Loops
