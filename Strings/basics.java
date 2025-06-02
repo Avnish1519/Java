@@ -32,7 +32,7 @@ class basics{
         //Printing the output 
         System.out.println("Concatenated String: " + str3);  //printing concatenated string
         System.out.println("Character at position 0 in str1: " + ch);
-        System.out.println("Substring from str2: " + sub);
+        System.out.println("Substring from str2: " + sub);//for output of substring
         System.out.println("String with replaced character: " + replacedStr);
         System.out.println("Uppercase String: " + upperStr);  //printing Uppercase string
         System.out.println("Lowercase String: " + lowerStr);
