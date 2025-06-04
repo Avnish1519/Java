@@ -19,7 +19,7 @@ public class BinarySearch {//class
     }
 
     public static void main(String[] args) {
-        int[] array = {2, 3, 4, 10, 40};
+        int[] array = {2, 3, 4, 10, 40};//array declaration
         int target = 10;
         int result = binarySearch(array, target);//calling of binary function and passing it to result
         
