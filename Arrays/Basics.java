@@ -17,6 +17,10 @@ class Basics{
         }
         System.out.println();
 
+        int[] arr = {1, 2, 3, 4, 5};
+        System.out.println(arr[2]);
+
+
         sc.close();  
     }
 }
