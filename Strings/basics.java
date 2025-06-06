@@ -5,6 +5,7 @@ class basics{
         //Using String Literal
         String name="Avnish Singh";
         String college="Galgotias University";
+        String greeting="Welcome to my coding world";
 
         //Using new Keyword
         String str1= new String("Hello");
