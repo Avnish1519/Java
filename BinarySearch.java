@@ -5,7 +5,8 @@ public class BinarySearch {//class
 //loop
         while (left <= right) {//loop
             int mid = left + (right - left) / 2;
-
+   
+            //using if else loop
             if (array[mid] == target) {//condition
                 return mid;
             }
