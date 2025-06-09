@@ -1,4 +1,4 @@
-public class SpiralMatrix {
+public class SpiralMatrix {//taking class as spiralmatrix
     public static void main(String[] args) {
         int n = 4;  // Size of the matrix (n x n)
         int[][] matrix = new int[n][n];
