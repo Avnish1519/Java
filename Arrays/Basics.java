@@ -30,6 +30,6 @@ class Basics{
         System.out.println(arr[2]);
 
 
-        sc.close();  
+        sc.close();  //using sc.close to close the scanner
     }
 }
