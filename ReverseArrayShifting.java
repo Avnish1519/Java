@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class ReverseArrayShifting {
+public class ReverseArrayShifting {//performing reverse array shifting
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
