@@ -4,7 +4,7 @@ class Basics{
     public static void main(String[] args){
         //  This is an object
         Scanner sc = new Scanner(System.in);
-        int[] arr1 = {1, 2, 3, 4, 5};
+        int[] arr1 = {1, 2, 3, 4, 5};//initializing arrays
         int[] arr2 = {1, 2, 3, 4, 5};
 
         int sum = 0;
