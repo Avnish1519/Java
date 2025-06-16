@@ -13,6 +13,13 @@ class FileEx1{
         } else {
             System.out.println("File not created");
         }
+
+        File f2 = new File("Test5.txt");
+        Scanner sc = new Scanner(f2);
+        if(sc.hasNextLine()) {
+            String s =sc.nextLine();
+            System.out.println(s);
+        }
     }
 }
 
