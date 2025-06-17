@@ -20,6 +20,16 @@ class FileEx1{
             String s =sc.nextLine();
             System.out.println(s);
         }
+
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        a=a+b;
+        b=a-b;
+        a=a-b;
+
+        System.out.println(a);
+        System.out.println(b);
     }
 }
 
