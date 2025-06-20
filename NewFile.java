@@ -24,7 +24,7 @@ class FileEx1{
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        a=a+b;
+        a=a+b;//swap without using third variable
         b=a-b;
         a=a-b;
 
