@@ -8,7 +8,7 @@ public class SpiralMatrix {//taking class as spiralmatrix
         
         //using while loop
         while (value <= n * n) {
-            for (int i = left; i <= right; i++) {
+            for (int i = left; i <= right; i++) {//inner loop
                 matrix[top][i] = value++;
             }
             top++;
