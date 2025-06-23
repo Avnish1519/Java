@@ -28,7 +28,7 @@ class FileEx1{
         b=a-b;
         a=a-b;
 
-        System.out.println(a);
+        System.out.println(a);//printing value
         System.out.println(b);
     }
 }
