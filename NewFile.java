@@ -30,6 +30,19 @@ class FileEx1{
 
         System.out.println(a);//printing value
         System.out.println(b);//printing value
+        
+
+        int a[] = new int[2];
+		try{
+		    System.out.println("a[4]:"+a[4]);
+		} catch(ArrayIndexOutOfBoundsException e) {
+		    System.out.println(e);
+		} finally {
+		    a[1]= 30;
+		    System.out.println("a[1]:"+a[1]);
+		    System.out.println("End of the program");
+		}
+        
     }
 }
 
