@@ -35,7 +35,7 @@ class Basics{
         }
         
         for(int i = 0; i < n; i++){
-            System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + " ");//printing the output
         }
         System.out.println();
 
