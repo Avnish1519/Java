@@ -1,4 +1,4 @@
-class DLL{
+class DLL{               //class Doubly Linked List Defined
     class Node{
         int data;
         Node next;
