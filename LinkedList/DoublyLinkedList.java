@@ -124,7 +124,7 @@ class DLL{               //class Doubly Linked List Defined
 public class DoublyLinkedList{
     public static void main(String [] args){
         DLL List = new DLL();
-        List.insertBeg(10);
+        List.insertBeg(10);//inserting values
         List.insertBeg(20);
         List.insertBeg(30);
         List.insertLast(40);
