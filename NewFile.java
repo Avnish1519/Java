@@ -26,7 +26,7 @@ class FileEx1{
 
         a=a+b;//swap without using third variable
         b=a-b;//to swap to numbers without using third variable
-        a=a-b;
+        a=a-b;//to swap to numbers without using third variable
 
         System.out.println(a);//printing value
         System.out.println(b);//printing value
