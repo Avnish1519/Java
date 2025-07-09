@@ -33,7 +33,7 @@ class FileEx1{
         
 
         int a[] = new int[2];//arrays
-		try{
+		try{//using try and catch block
 		    System.out.println("a[4]:"+a[4]);
 		} catch(ArrayIndexOutOfBoundsException e) {
 		    System.out.println(e);
