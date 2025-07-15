@@ -2,7 +2,7 @@ class Node {
     int data;
     Node left, right;
 
-    public Node(int item) {
+    public Node(int item) {// node function 
         data = item;
         left = right = null;
     }
