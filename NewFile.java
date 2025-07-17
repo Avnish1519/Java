@@ -11,7 +11,7 @@ class FileEx1{
         if(f.createNewfile) {
             System.out.println("File created");//output
         } else {
-            System.out.println("File not created");
+            System.out.println("File not created");//giving output
         }
 
         File f2 = new File("Test5.txt");
