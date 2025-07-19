@@ -5,7 +5,7 @@ class Basics{
         //  This is an object
         Scanner sc = new Scanner(System.in);
         int[] arr1 = {1, 2, 3, 4, 5};//initializing arrays
-        int[] arr2 = {1, 2, 3, 4, 5};
+        int[] arr2 = {1, 2, 3, 4, 5};//initializing arrays
         
         int[][] mul = new int[arr1.length][arr2.length];
         for(int i=0; i<arr1.length; i++) {
