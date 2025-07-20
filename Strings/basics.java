@@ -18,7 +18,7 @@ class basics{
         // Correcting the typo and comment:
         String str3 = str1.concat(" How are you!"); // Concatenate str1 and the new String
         System.out.println(str2);
-        System.out.println(length);
+        System.out.println(length);//printing output
         char ch = str1.charAt(0); // Returns 'H' finds char at place
 
         
