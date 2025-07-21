@@ -16,7 +16,7 @@ public class InsertionSort {
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
 
-        int[] arr = new int[size];
+        int[] arr = new int[size];//intializing arrays
 
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < size; i++) {
