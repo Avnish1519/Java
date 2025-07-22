@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;//for all packages
 public class main{
     public static void main(String [] args){//main method
         Scanner sc =  new Scanner(System.in);//sc as object is made here in this code
