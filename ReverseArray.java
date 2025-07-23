@@ -10,7 +10,7 @@ public class main{
         }
 
         int left = 0,right = arr.length-1;
-        while(left< right){//while loop
+        while(left< right){//using while loop
             
         }
         
