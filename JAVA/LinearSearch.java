@@ -15,7 +15,7 @@ public class Main {
         }
 
         System.out.print("Enter the element to find: ");
-        int key = sc.nextInt();
+        int key = sc.nextInt();//taking input
 
         int index = linearSearch(arr, key);
         if (index != -1) {
