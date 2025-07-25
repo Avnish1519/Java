@@ -4,7 +4,7 @@ class LL {
         Node next;
 
         Node(int data) {
-            this.data = data;
+            this.data = data;//using this keyword
             this.next = null;
         }
     }
