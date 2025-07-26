@@ -54,7 +54,7 @@ public class LevelOrderTraversal {
 
         while (!queue.isEmpty()) {
             Node currentNode = queue.dequeue();
-            System.out.print(currentNode.val + " ");
+            System.out.print(currentNode.val + " ");//printing the value
 
             if (currentNode.left != null) queue.enqueue(currentNode.left);
             if (currentNode.right != null) queue.enqueue(currentNode.right);
