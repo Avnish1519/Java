@@ -10,7 +10,7 @@ class basics{
         //Using new Keyword
         String str1= new String("Hello");
         String str2 = new String("Hello, World!");
-        System.out.println(name);
+        System.out.println(name);//printing output
         System.out.println(college);
         System.out.println(str1);
 
