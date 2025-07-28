@@ -28,7 +28,7 @@ class DoubleQueue {
     }
 
     void insertrear(int data) {
-        if (rear == capacity - 1) {
+        if (rear == capacity - 1) {//using if-else statement
             System.out.println("Queue is full. Can't insert from rear.");
         } else {
             if (rear == -1) {
