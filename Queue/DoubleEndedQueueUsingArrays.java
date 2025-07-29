@@ -42,7 +42,7 @@ class DoubleQueue {
     }
 
     void deletefront() {
-        if (front == -1) {
+        if (front == -1) {//using if-else statement
             System.out.println("Queue is empty. Can't delete from front.");
         } else {
             System.out.println("Deleted from front: " + arr[front]);
