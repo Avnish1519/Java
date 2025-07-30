@@ -11,7 +11,7 @@ class basics{
         String str1= new String("Hello");
         String str2 = new String("Hello, World!");
         System.out.println(name);//printing output
-        System.out.println(college);
+        System.out.println(college);//printing output
         System.out.println(str1);
 
         int length = str1.length(); // Returns the length of the string
