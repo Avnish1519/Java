@@ -56,7 +56,7 @@ class DoubleQueue {
     }
 
     void deleterear() {
-        if (rear == -1) {
+        if (rear == -1) {//using if-else Statement
             System.out.println("Queue is empty. Can't delete from rear.");
         } else {
             System.out.println("Deleted from rear: " + arr[rear]);
