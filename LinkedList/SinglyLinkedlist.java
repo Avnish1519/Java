@@ -52,7 +52,7 @@ class LL {
 
     void deleteFirst() {
         if (head == null) {
-            System.out.println("List is Empty");
+            System.out.println("List is Empty");//printing the value
             return;
         }
         System.out.println(head.data + " deleted");
