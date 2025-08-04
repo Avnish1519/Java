@@ -7,7 +7,7 @@ public class InsertionSort {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.println();
+        System.out.println();//to make the other things in the next line
     }
 
     public static void main(String[] args) {
