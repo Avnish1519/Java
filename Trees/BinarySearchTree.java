@@ -42,7 +42,7 @@ class BST {
 
     // Helper method for deletion
     Node deleteRec(Node root, int key) {
-        if (root == null)
+        if (root == null)//using if-else statement
             return root;
 
         if (key < root.key)
