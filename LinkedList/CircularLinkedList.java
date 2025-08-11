@@ -3,7 +3,7 @@ class CLL{
         int data;
         Node next;
 
-        Node(int data){
+        Node(int data){//constructor
             this.data = data;
             this.next = null;
         }
