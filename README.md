@@ -2,8 +2,8 @@
 //DSA with JAVA
 //Basic concepts
 //Questions on Arrays,Linked List-Singly,Doubly,Circular
-//Trees-Binary Tree
-//Heap
+//Trees-Binary Tree,
+//Heap-Max Heap Tree
 //DFS
 //Leetcode Questions 
 //Conditionals,Loops
