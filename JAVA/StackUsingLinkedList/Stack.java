@@ -17,7 +17,7 @@ class SLL{
 
     void push(int data){
         Node newNode = new Node(data);
-        if(isEmpty()){
+        if(isEmpty()){//using if-else loop
             head  = newNode;
         }
         else{
