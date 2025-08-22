@@ -18,7 +18,7 @@ public class Main
 		    }
 		    
 		}
-		System.out.println(min);
+		System.out.println(min);//printing the output
 		
 		
 	}
