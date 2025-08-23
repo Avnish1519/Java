@@ -1,5 +1,5 @@
 import java.util.*;
-class basics{
+class basics{//named it as basics
     public static void main(String[] args){
 
         //Using String Literal
