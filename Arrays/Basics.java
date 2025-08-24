@@ -42,6 +42,13 @@ class Basics{
         int[] arr = {1, 2, 3, 4, 5};
         System.out.println(arr[2]);//printing the value
 
+        int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int sum = 0;
+        for (int i = 0; i < arr1.length; i++) {
+            sum += arr1[i];
+        }
+        System.out.println("Sum: " + sum);
+        
 
         sc.close();  //using sc.close to close the scanner
     }
