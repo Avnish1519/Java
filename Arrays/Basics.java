@@ -44,9 +44,12 @@ class Basics{
 
         int[] arr1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int sum = 0;
+        int avg;
         for (int i = 0; i < arr1.length; i++) {
             sum += arr1[i];
         }
+        avg = sum/arr1.length;
+        System.out.println("Avg: " + avg);
         System.out.println("Sum: " + sum);
         
 
