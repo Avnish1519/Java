@@ -50,7 +50,7 @@ class Basics{
         }
         avg = sum/arr1.length;
         System.out.println("Avg: " + avg);
-        System.out.println("Sum: " + sum);
+        System.out.println("Sum: " + sum);//printing sum
         
 
         sc.close();  //using sc.close to close the scanner
