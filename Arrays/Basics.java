@@ -49,7 +49,8 @@ class Basics{
             sum += arr1[i];
         }
         avg = sum/arr1.length;
-        System.out.println("Avg: " + avg);
+        int multiplication =0;
+        System.out.println("Avg: " + avg);//printing average
         System.out.println("Sum: " + sum);//printing sum
         
 
