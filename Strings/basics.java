@@ -4,6 +4,8 @@ class basics{//named it as basics
 
         //Using String Literal
         String name="Avnish Singh";
+        System.out.println("Hello " + name);
+        System.out.println("Length: " + name.length());
         String college="Galgotias University";
         String greeting="Welcome to my coding world";
 
