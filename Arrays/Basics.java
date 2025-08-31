@@ -52,6 +52,15 @@ class Basics{
         int multiplication =0;
         System.out.println("Avg: " + avg);//printing average
         System.out.println("Sum: " + sum);//printing sum
+
+        int[][] num = {{1,2},{3,4}};
+        
+        for(int i=0; i<num.length; i++) {
+            for(int j=0; j<num[i].length; j++) {
+                System.out.print(num[i][j]+" ");
+            }
+        }
+        System.out.println();
         
 
         sc.close();  //using sc.close to close the scanner
