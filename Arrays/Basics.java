@@ -60,7 +60,7 @@ class Basics{
                 System.out.print(num[i][j]+" ");
             }
         }
-        System.out.println();
+        System.out.println();//uesd for new line
         
 
         sc.close();  //using sc.close to close the scanner
