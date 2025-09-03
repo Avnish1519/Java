@@ -1,22 +1,16 @@
-class A{
+class Animal{
     void eat() {
         System.out.println("Animal eats food");
     }
 }
 
-class B extends A{
+class Mammal extends Animal{
     void breathe() {
         System.out.println("Mammal breathes air");
     }
 }
 
-class C extends A {
-    void bark() {
-        System.out.println("Dog barks.");
-    }
-}
-
-class C extends A {
+class Dog extends Mammal {
     void bark() {
         System.out.println("Dog barks.");
     }
@@ -25,6 +19,8 @@ class C extends A {
 public class Main {
     public static void main(String[] args) {
         Dog myDog = new Dog();
+
+        
         myDog.eat();     
         myDog.breathe(); 
         myDog.bark();    
