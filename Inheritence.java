@@ -18,7 +18,7 @@ class Dog extends Mammal {
 
 public class Main {
     public static void main(String[] args) {
-        Dog myDog = new Dog();
+        Dog myDog = new Dog();//creating dog object as myDog
 
         
         myDog.eat();     
