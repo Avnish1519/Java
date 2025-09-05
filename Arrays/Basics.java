@@ -57,7 +57,7 @@ class Basics{
         
         for(int i=0; i<num.length; i++) {
             for(int j=0; j<num[i].length; j++) {
-                System.out.print(num[i][j]+" ");
+                System.out.print(num[i][j]+" ");//printing output
             }
         }
         System.out.println();//uesd for new line
