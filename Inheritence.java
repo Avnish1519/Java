@@ -12,7 +12,7 @@ class Mammal extends Animal{
 
 class Dog extends Mammal {
     void bark() {
-        System.out.println("Dog barks.");
+        System.out.println("Dog barks.");//printing output
     }
 }
 
