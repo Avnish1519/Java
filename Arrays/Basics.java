@@ -46,7 +46,7 @@ class Basics{
         int sum = 0;
         int avg;
         for (int i = 0; i < arr1.length; i++) {
-            sum += arr1[i];
+            sum += arr1[i];//putting value inside sum
         }
         avg = sum/arr1.length;
         int multiplication =0;
