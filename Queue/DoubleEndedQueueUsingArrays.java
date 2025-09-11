@@ -70,7 +70,7 @@ class DoubleQueue {
     }
 
     void display() {
-        if (front == -1) {
+        if (front == -1) {//using if-else statement
             System.out.println("Queue is empty.");
         } else {
             System.out.print("Queue elements: ");
