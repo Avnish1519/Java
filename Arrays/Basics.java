@@ -61,6 +61,13 @@ class Basics{
             }
         }
         System.out.println();//uesd for new line
+
+        int size = sc.nextInt();
+        int[] numbers = new int[size];
+
+        for(int i=0; i<size; i++){
+            System.out.println(numbers[i]);
+        } 
         
 
         sc.close();  //using sc.close to close the scanner
