@@ -16,7 +16,7 @@ class Basics{
         
         for(int i=0; i<mul.length; i++) {//usimg for loop
             for(int j=0;j<mul.length; j++) {
-                System.out.println(mul[i][j]);
+                System.out.println(mul[i][j]);//printing the output
             }
         }
 
