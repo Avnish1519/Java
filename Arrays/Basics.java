@@ -30,7 +30,7 @@ class Basics{
         int n = sc.nextInt();
         int arr[] = new int[n];  // Initializing the array with size n
 
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++){//using for loop
             arr[i] = sc.nextInt();
         }
         
