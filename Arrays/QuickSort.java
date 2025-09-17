@@ -39,7 +39,7 @@ public class QuickSort {
 
         quickSort(array, 0, array.length - 1);
 
-        System.out.println("Sorted Array:");
+        System.out.println("Sorted Array:");//printing the output
         printArray(array);
     }
 
