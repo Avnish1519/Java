@@ -52,7 +52,7 @@ public class LevelOrderTraversal {
         Queue queue = new Queue(100); // Adjust capacity as needed
         queue.enqueue(root);
 
-        while (!queue.isEmpty()) {
+        while (!queue.isEmpty()) {//using  while loop
             Node currentNode = queue.dequeue();
             System.out.print(currentNode.val + " ");//printing the value
 
