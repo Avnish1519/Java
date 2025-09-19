@@ -65,7 +65,7 @@ class Basics{
         int size = sc.nextInt();
         int[] numbers = new int[size];
 
-        for(int i=0; i<size; i++){
+        for(int i=0; i<size; i++){//using for loop
             System.out.println(numbers[i]);
         } 
         
