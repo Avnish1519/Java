@@ -12,6 +12,6 @@ public class Main {
             prefixSum[i] = prefixSum[i - 1] + arr[i]; 
         }
         
-        System.out.println(Arrays.toString(prefixSum));
+        System.out.println(Arrays.toString(prefixSum));//printing output
     }
 }
