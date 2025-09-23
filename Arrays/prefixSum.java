@@ -8,7 +8,7 @@ public class Main {
         
         
         prefixSum[0] = arr[0]; 
-        for (int i = 1; i < n; i++) { 
+        for (int i = 1; i < n; i++) { //using for-loop
             prefixSum[i] = prefixSum[i - 1] + arr[i]; 
         }
         
