@@ -1,0 +1,38 @@
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+        Map<String, Integer> map = new HashMap<>();//no insertion order
+        map.put("Ayush", 19);
+        map.put("Dev", 19);
+        map.put("Ankit", 18);
+        System.out.println(map);
+	}
+}
+
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+        Map<String, Integer> map = new TreeMap<>();//insertion order but with respect to integer
+        map.put("Ayush", 19);
+        map.put("Dev", 19);
+        map.put("Ankit", 18);
+        System.out.println(map);
+	}
+}
+
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+        Map<String, Integer> map = new LinkedHashMap<>();//insertion order is preseved so gives out in ascending order
+        map.put("Ayush", 19);
+        map.put("Dev", 19);
+        map.put("Ankit", 18);
+        System.out.println(map);
+        
+        for(Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " => " + entry.getValue());
+        }
+	}
+}
+
+}
