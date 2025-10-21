@@ -13,7 +13,7 @@ class DLL{               //class Doubly Linked List Defined
     }
     Node head=null;
 
-    void insertBeg(int data){
+    void insertBeg(int data){//function to insert at beggining 
         Node newNode = new Node(data);
         if(head==null){
             head = newNode;
