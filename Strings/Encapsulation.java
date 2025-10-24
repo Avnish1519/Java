@@ -2,7 +2,7 @@ class Account {
     private double balance = 1000;
 
     public void deposit(double amount) {
-        if (amount > 0) {
+        if (amount > 0) {//using if-else control
             balance += amount;
             System.out.println("Successfully deposited: " + amount);
         } else {
