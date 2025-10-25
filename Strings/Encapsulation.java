@@ -11,7 +11,7 @@ class Account {
     }
 
     public void withdraw(double amount) {
-        if (amount <= balance) {
+        if (amount <= balance) {//using if-else control statement
             balance -= amount;
             System.out.println("Withdrawn amount: " + amount);
         } else {
