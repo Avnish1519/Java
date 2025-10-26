@@ -24,7 +24,7 @@ public class BinarySearch {//class
         int target = 10;
         int result = binarySearch(array, target);//calling of binary function and passing it to result
         
-        //using if else loop below
+        //using if-else control statement
         if (result == -1) {
             System.out.println("Element not present in array");
         } else {
