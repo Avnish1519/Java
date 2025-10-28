@@ -5,7 +5,7 @@ class Main {
         ArrayList<String> li = new ArrayList<>();
         li.add("l");
         
-        System.out.println(li);
+        System.out.println(li);//printing the output
         String s = li.get(0);
         System.out.println(s);
         
