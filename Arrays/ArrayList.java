@@ -7,7 +7,7 @@ class Main {
         
         System.out.println(li);//printing the output
         String s = li.get(0);
-        System.out.println(s);
+        System.out.println(s);//printing the output
         
     }
 }
