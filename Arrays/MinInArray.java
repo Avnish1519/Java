@@ -13,7 +13,7 @@ public class Main
 		int min=arr[0];
 		//again using a for loop for calculations
 		for(int i=1;i<n;i++){
-		    if(arr[i]<min){
+		    if(arr[i]<min){//using if control statement
 		        min=arr[i];
 		    }
 		    
