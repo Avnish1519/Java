@@ -28,7 +28,7 @@ class DLL{               //class Doubly Linked List Defined
 
     void insertLast(int data) {
         Node newNode = new Node(data);
-        if (head == null) {
+        if (head == null) {//using if control statement
             head = newNode;
         } else {
             Node current = head;
