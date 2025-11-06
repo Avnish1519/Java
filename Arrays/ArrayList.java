@@ -13,7 +13,7 @@ class Main {
         List<Integer> l1 = new ArrayList<>();
         l1.add(1);
         l1.add(2);
-        System.out.println(l1);
+        System.out.println(l1);//printing the output
         
     }
 }
