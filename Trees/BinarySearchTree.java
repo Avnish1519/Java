@@ -24,7 +24,7 @@ class BST {
 
     // Helper method for insertion
     Node insertRec(Node root, int key) {
-        if (root == null) {
+        if (root == null) {//using if control statement
             root = new Node(key);
             return root;
         }
