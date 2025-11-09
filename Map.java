@@ -27,7 +27,7 @@ public class Main {
         map.put("Ayush", 19);
         map.put("Dev", 19);
         map.put("Ankit", 18);
-        System.out.println(map);
+        System.out.println(map);//printing the output
         
         for(Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " => " + entry.getValue());
