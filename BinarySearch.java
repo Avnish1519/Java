@@ -10,7 +10,8 @@ public class BinarySearch {//class
             if (array[mid] == target) {//condition
                 return mid;
             }
-            if (array[mid] < target) {
+            if (array[mid] < target) {//conditional
+                
                 left = mid + 1;//left part of array
             } else {
                 right = mid - 1;
