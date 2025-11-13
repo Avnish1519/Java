@@ -8,7 +8,7 @@ class CLL{
             this.next = null;
         }
     }
-    Node tail=null;
+    Node tail=null;//putting tail to null 
 
     void insertBeg(int data){
         Node newNode = new Node(data);
