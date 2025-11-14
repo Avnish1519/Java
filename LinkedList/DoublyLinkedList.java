@@ -4,7 +4,7 @@ class DLL{               //class Doubly Linked List Defined
         Node next;
         Node prev;
 
-        Node(int data){
+        Node(int data){//constructor
             this.data=data;
             this.next=null;
             this.prev=null;
