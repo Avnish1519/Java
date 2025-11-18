@@ -20,7 +20,7 @@ class Account {
     }
 
     public double getBalance() {
-        return balance;
+        return balance;//use of the return keyword
     }
 }
 
