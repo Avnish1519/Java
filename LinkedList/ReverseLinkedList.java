@@ -3,7 +3,7 @@ class LL {
         int data;
         Node next;
 
-        Node(int data) {
+        Node(int data) {//using a constructor to initialize the variables
             this.data = data;//using this keyword
             this.next = null;
         }
