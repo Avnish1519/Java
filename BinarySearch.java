@@ -29,7 +29,7 @@ public class BinarySearch {//class
         if (result == -1) {
             System.out.println("Element not present in array");
         } else {
-            System.out.println("Element found at index " + result);
+            System.out.println("Element found at index " + result);//printing the output
         }
     }
 }
