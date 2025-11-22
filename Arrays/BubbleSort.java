@@ -5,7 +5,7 @@ public class BubbleSort {
         bubbleSort(array);
         
         System.out.println("Sorted array:");
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {//using for loop
             System.out.print(array[i] + " ");//printing the array
         }
     }
