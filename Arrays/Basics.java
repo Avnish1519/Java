@@ -37,7 +37,7 @@ class Basics{
         for(int i = 0; i < n; i++){
             System.out.print(arr[i] + " ");//printing the output
         }
-        System.out.println();
+        System.out.println();//to move to the next line
 
         int[] arr = {1, 2, 3, 4, 5};
         System.out.println(arr[2]);//printing the value
