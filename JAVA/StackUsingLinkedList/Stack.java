@@ -28,7 +28,7 @@ class SLL{
 
     void pop(){
         
-        if(isEmpty()){
+        if(isEmpty()){//using if-else control statement
             System.out.println("List is Empty");
         }
         else{
