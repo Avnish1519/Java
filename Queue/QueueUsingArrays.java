@@ -41,7 +41,7 @@ class SimpleQueue {
         front = (front + 1) % capacity;
         size--;
         System.out.println(item + " dequeued from queue");
-        return item;
+        return item;//using return 
     }
 }
 
