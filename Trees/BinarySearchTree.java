@@ -97,7 +97,7 @@ class BST {
     void inorderRec(Node root) {
         if (root != null) {
             inorderRec(root.left);
-            System.out.print(root.key + " ");
+            System.out.print(root.key + " ");//printing the output
             inorderRec(root.right);
         }
     }
