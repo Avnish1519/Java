@@ -30,7 +30,7 @@ public class Main {
         System.out.println(map);//printing the output
         
         for(Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + " => " + entry.getValue());
+            System.out.println(entry.getKey() + " => " + entry.getValue());//printing the output or value
         }
 	}
 }
