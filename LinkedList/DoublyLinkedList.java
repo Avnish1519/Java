@@ -43,7 +43,7 @@ class DLL{               //class Doubly Linked List Defined
     void insertPos(int data,int pos){
         Node newNode = new Node(data);
         Node current = head;
-        for (int i = 0; i < pos - 1; i++) {
+        for (int i = 0; i < pos - 1; i++) {//using for loop
             if (current.next == null) {
                 System.out.println("Position out of range");
                 return;
