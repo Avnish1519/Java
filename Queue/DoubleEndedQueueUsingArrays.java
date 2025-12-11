@@ -17,7 +17,7 @@ class DoubleQueue {
         if (front == 0) {
             System.out.println("You can't enter elements from front");
         } else {
-            if (front == -1) {
+            if (front == -1) {//using if control statement
                 front = 0;
                 rear = 0;
             } else {
