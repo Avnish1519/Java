@@ -60,7 +60,7 @@ class DLL{               //class Doubly Linked List Defined
     }
 
     void deleteFirst(){
-        if(head==null){
+        if(head==null){//using if control statement
             System.out.println("List is Empty");
             return;
         }
