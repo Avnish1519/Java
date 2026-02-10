@@ -11,7 +11,7 @@ class Node {
 
 // Class representing the BST
 class BST {
-    Node root;
+    Node root;//node root declared
 
     BST() {
         root = null;
