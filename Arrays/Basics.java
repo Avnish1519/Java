@@ -1,5 +1,5 @@
 //Writing a basic code in java
-import java.util.*;
+import java.util.*;//libraries
 class Basics{
     public static void main(String[] args){
         //  This is an object
