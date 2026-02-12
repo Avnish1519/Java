@@ -1,4 +1,4 @@
-class LL {
+class LL {//class declared
     class Node {
         int data;
         Node next;
