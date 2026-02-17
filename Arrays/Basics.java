@@ -22,7 +22,7 @@ class Basics{
 
         int sum = 0;
 
-        for (int i = 0; i < arr1.length; i++) {
+        for (int i = 0; i < arr1.length; i++) {//using for loop
             sum += arr1[i] + arr2[i];
         }
 
