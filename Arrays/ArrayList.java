@@ -15,5 +15,6 @@ class Main {
         l1.add(2);//adding things
         System.out.println(l1);//printing the output
         
+        return 0;
     }
 }
