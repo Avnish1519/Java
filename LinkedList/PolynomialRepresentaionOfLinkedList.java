@@ -1,5 +1,5 @@
-class Polynomial {
-    Node head = null;
+class Polynomial {//
+    Node head = null;//node head declared with null value
 
     
     Polynomial() {
